@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyecto Bedu Equipo 20</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+	<!-- Latest compiled and minified CSS -->
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"> -->
+
+	<!-- Optional theme -->
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous"> -->
+	
+	{{ headContent() }} 
+	<!-- {{ bootstrapLib() }}  -->
+    <style>
+        body{
+            background-color: #E6E6E6;
+            background-image: url("http://tutendero.com.mx/img/Bedu_Fondo_3.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            font-family: 'Lato', sans-serif;
+        }
+
+        h1,h2,h3,h4,h5,h6{
+            font-family: 'Anton', sans-serif;
+        }
+
+        .title-green{
+            color: #108546 !important;
+        }
+
+        .title-red{
+            color: #AF2B39;
+            
+        }
+
+        .btn {
+            display: inline-block;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            text-align: center;
+            text-decoration: none;
+            vertical-align: middle;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+            background-color: transparent;
+            border: 1px solid transparent;
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            border-radius: .25rem;
+            transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+
+        .btn-outline-success {
+            color: #198754;
+            border-color: #198754;
+        }
+
+        .btn-outline-success:hover {
+            color: #fff;
+            background-color: #198754;
+            border-color: #198754;
+        }
+        
+        .mt-5 {
+            margin-top: 3rem!important;
+        }
+
+        .mb-5 {
+            margin-bottom: 3rem!important;
+        }
+
+        .pt-5 {
+            padding-top: 3rem!important;
+        }
+
+        .pb-5 {
+            padding-bottom: 3rem!important;
+        }
+
+        .justify-content-center {
+            justify-content: center!important;
+        }
+
+        .align-items-center {
+            align-items: center!important;
+        }
+
+        .btn-outline-success:active:focus {
+            box-shadow: 0 0 0 0.25rem rgba(25,135,84,0.5);
+            outline: 0px;
+            outline-offset: 0px;
+        }
+
+        .overflow-scroll{
+            overflow: auto;
+        }
+
+        .slide .container-fluid .row .col-sm-12 {
+            overflow: auto;
+        }
+
+        .item {
+            max-height: 100%;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+
+        .h-100{
+            height: 100%;
+        }
+
+        .img-inicio{
+            height:15rem;
+        }
+
+        .item .content .row .col-sm-8{            
+            background-color: #f8f8f8f8;
+            padding: 3rem;
+            border-radius: 2rem;
+        }
+        .conclu{
+            font-size: 1.5em;
+        }
+
+        .acro li{
+            font-size: 0.5em;
+        }
+    </style>
+</head>
+<body class="h-100 " > 
+
+	<div id="carouselExampleControls" class="carousel slide" 
+		data-ride="carousel" data-keyboard="true"
+		data-slide="false" data-interval="false" style="height: 95vh;">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="1"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="2"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="3"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="4"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="5"></li>
+		</ol>
+	 	<div class="carousel-inner h-100">
+			<div class="item active h-100">
+				<div class="content h-100">
+					<div class="row justify-content-center align-items-center h-100 mt-5 pb-5 pt-5">								
+						<div class="col-sm-8 col-sm-offset-2">
+							<h1 class="title-red text-center">Análisis de la influencia de indicadores socioeconómicos en las transiciones de gobierno</h1>
+							<!-- Análisis de la influencia de indicadores socio-económicos en la trancisiones de gobierno-->
+							<div class="row justify-content-center mt-5">
+
+								<div class="col-md-6 text-center">
+									<h3 class="title-green" >Integrantes</h3>
+                                    <p><strong>César García Gutiérrez</strong></p>
+                                    <p><strong>Juan Rosendo González Feria</strong></p>	
+									<p><strong>Emilio Linarez Meneses</strong></p>																	
+									<p><strong>Set Jafet Renedo Ortega</strong></p>
+								</div>
+
+								<div class="col-md-6 text-center">
+									<img src="http://tutendero.com.mx/img/Picture1.svg" alt="" class="img-inicio" height="3em">
+								</div>
+                                
+							</div>		
+							<div class="row justify-content-center mt-5">
+								<div class="col-sm-12 text-center">
+									<div class="btn-group btn-group-lg" role="group" aria-label="...">
+										<button data-target="#carouselExampleControls" data-slide-to="1"
+											type="button" class="btn btn-outline-success">Datos</button>
+										<button data-target="#carouselExampleControls" data-slide-to="2"
+											type="button" class="btn btn-outline-success">Gráficas </button>
+										<button data-target="#carouselExampleControls" data-slide-to="3"
+											type="button" class="btn btn-outline-success">Transiciones</button>
+										<button data-target="#carouselExampleControls" data-slide-to="4"
+											type="button" class="btn btn-outline-success">Indicadores socioeconómicos</button>
+                                        <button data-target="#carouselExampleControls" data-slide-to="5"
+											type="button" class="btn btn-outline-success">Regresión logística y conclusión</button>    
+									</div>
+								</div>
+                                <div class="col-sm-12 text-center">
+                                    <p>Para poder navegar a través del dashboard  se debe realizar con las flechas del teclado de <i class="glyphicon glyphicon-arrow-left" aria-hidden="true"></i> <i class="glyphicon glyphicon-arrow-right" aria-hidden="true"></i></p>
+                                </div>
+							</div>						
+						</div>
+					</div>							
+				</div>	
+		    </div>
+	      	<div class="item h-100">
+                <div class="content">
+                    <div class="row slide justify-content-center mt-5 mb-5 pb-5">								
+                        <div class="col-sm-8 col-sm-offset-2 overflow-scroll">
+                            <h2 class="title-green">Datos</h2>
+                            {{slide1}}
+                        </div>
+                    </div>							
+                </div>	
+		    </div>
+		    <div class="item">
+                <div class="content">
+                    <div class="row slide justify-content-center mt-5 mb-5 pb-5">								
+                        <div class="col-sm-8 col-sm-offset-2 overflow-scroll">
+                            <h2 class="title-green">Gráficas</h2>
+                            {{slide2}}
+                            <h6 class="title-red">Acrónimos elecciones 2018</h6>
+                            <ul class="acro">
+                                <li>PRI: Partido Revolucionario Institucional</li>
+                                <li>PAN: Partido Acción Nacional </li>
+                                <li>PRD: Partido Revolucionario Democrático</li>
+                                <li>PVEM: Partido Verde Ecologísta de México</li>
+                                <li>PANAL: Nueva Alianza</li>
+                                <li>MC: Movimiento Ciudadano</li>
+                                <li>PT: Partido del Trabajo</li>
+                                <li>MORENA : Movimiento Regeneración Nacional</li>
+                                <li>PES : Partido Encuentro Social</li>
+                                <li>PAN_PRD_MC : Coalición PAN, PRD y MC</li>
+                                <li>PAN_PRD: Coalición PAN y PRD</li>
+                                <li>PAN_MC: Coalición PAN y MC</li>
+                                <li>PRD_MC: Coalición PRD y MC</li>
+                                <li>PRI_PVEM_PANAL: Coalición PRI, PVEM Y PANAL</li>
+                                <li>PRI_PVEM: Coalición PRI y PVEM</li>
+                                <li>PRI_PANAL: Coalición PRI y PANAL</li>
+                                <li>PVEM_PANAL: Coalición PVEM Y PANAL</li>
+                                <li>PT_MORENA_PES: Coalición PT, MORENA y PES</li>
+                                <li>PT_MORENA: Coalición PT y MORENA</li>
+                                <li>PT_PES: Coalición PT y PES</li>
+                                <li>MORENA_PES: Coalición PES y MORENA</li>
+                                <li>INDEP_1: Candidato Independiente 1 Margarita Zavala</li>
+                                <li>INDEP_2: Candidato Independiente 2 Jaime Rodríguez Calderón </li>
+                                <li>No_registrado: Candidatos que no se encuentran registrados</li>
+                                <li>Nulo: Votos que no se pueden clasificar por inconsistencias</li>
+                                <li>J.A.M: Jose Antonio Meade</li>
+                                <li>R.A: Ricardo Anaya</li>
+                                <li>A.M.L.O: Andrés Manuel Lopez Obrador</li>
+                                <li>M.Z: Margarita Zavala</li>
+                                <li>J.R.C: Jaime Rodríguez Calderon</li>
+                            </ul>
+                            <h6 class="title-red">Acrónimos elecciones 2012</h6>
+                            <ul class="acro">
+                                <li>PRI: Partido Revolucionario Institucional</li>
+                                <li>PAN: Partido Acción Nacional </li>
+                                <li>PRD: Partido Revolucionario Democrático</li>
+                                <li>PVEM: Partido Verde Ecologísta de México</li>
+                                <li>PANAL: Nueva Alianza</li>
+                                <li>MC: Movimiento Ciudadano</li>
+                                <li>PT: Partido del Trabajo</li>
+                                <li>PRI_PVEM: Coalición PRI y PVEM</li>
+                                <li>PRD_PT_MC: Coalición PRD, PT y MC</li>
+                                <li>PRD_PT: Coalición PRD y PT</li>
+                                <li>PRD_MC: Coalición PRD y MC</li>
+                                <li>PT_MC: Coalición PT y MC</li>
+                                <li>E.N.P: Enrique Peña Nieto</li>
+                                <li>J.V.M: Jasefina Vázquez Mota</li>
+                                <li>A.M.L.O: Andrés Manuel Lopez Obrador</li>
+                                <li>G.Q.T: Gabriel Quadri de la Torre</li>
+                            </ul>
+                            <h6 class="title-red">Acrónimos elecciones 2006</h6>
+                            <ul class="acro">
+                                <li>PAN: Partido Acción Nacional</li>
+                                <li>PRI_VERDE: Coalición PRI y PVEM</li>
+                                <li>PRD: Partido Revolucionario Democrático</li>
+                                <li>NUEVA_ALIANZA: Nueva Alianza</li>
+                                <li>ALTERNATIVA: Partido Social Demócrata</li>
+                                <li>NO_REGISTRADOS: Candidatos que no se encuentran registrados</li>
+                                <li>VOTOS_NULOS: Votos que no se pueden clasificar por inconsistencias</li>
+                                <li>F.C: Felipe Calderón</li>
+                                <li>A.M.L.O: Andrés Manuel Lopez Obrador</li>
+                                <li>R.M: Roberto Madrazo</li>
+                            </ul>
+                        </div>
+                    </div>							
+                </div>		
+		    </div>
+		    <div class="item">
+                <div class="content">
+                    <div class="row slide justify-content-center mt-5 mb-5 pb-5">								
+                        <div class="col-sm-8 col-sm-offset-2 overflow-scroll">
+                            <h2 class="title-green">Transiciones</h2>
+                            {{slide3}}
+                        </div>
+                    </div>							
+                </div>	
+		    </div>
+		    <div class="item">
+                <div class="content">
+                    <div class="row slide justify-content-center mt-5 mb-5 pb-5">								
+                        <div class="col-sm-8 col-sm-offset-2 overflow-scroll">
+                            <h2 class="title-green">Indicadores Socioeconómicos</h2>
+                            {{slide4}}
+                        </div>
+                    </div>							
+                </div>	
+		    </div>
+		    <div class="item">
+                <div class="content">
+                    <div class="row slide justify-content-center mt-5 mb-5 pb-5">								
+                        <div class="col-sm-8 col-sm-offset-2 overflow-scroll">
+                            <h2 class="title-green">Regresión logística</h2>
+                            {{slide5}}
+
+                            <h2 class="title-red">Conclusión</h2>
+                            <p><i class="conclu">A partir de los hallazgos del modelo de regresión logística se puede concluir que los indicadores socioeconómicos no influyeron en la toma de decisiones políticas, al menos al nivel de elecciones presidenciales durante el periodo del 2006 al 2018. Cabe destacar que en este periodo ocurrieron dos transiciones de los partidos en el poder.</i></p>
+                            <p>Repositorio Github: <a href="https://github.com/setjaf/ProyectoBeduF2R">https://github.com/setjaf/ProyectoBeduF2R</a></p>
+                        </div>
+                    </div>							
+                </div>	
+		    </div>
+	    </div>
+		<!-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span> -->
+		</a>
+	</div>
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script> -->
+	
+	<script type="text/javascript">
+		// var myCarousel = document.querySelector('#carouselExampleControls')
+		// var carousel = new bootstrap.Carousel(myCarousel)
+		$(document).ready(function(){
+			$(document).bind('keyup', function(e) {
+				if(e.which == 39){
+					$('.carousel').carousel('next');
+					$('.carousel').carousel('pause');
+				}
+				else if(e.which == 37){
+					$('.carousel').carousel('prev');
+					$('.carousel').carousel('pause');
+				}
+			});
+		});
+		$('#carouselExampleControls').on('slide.bs.carousel', function () {
+            $('.carousel').carousel('pause');
+            Shiny.unbindAll();
+            Shiny.bindAll();
+        })
+	</script>
+</body>
+</html>
